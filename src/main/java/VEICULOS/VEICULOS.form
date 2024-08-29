@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Relatorio"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="btnDados">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dados"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDadosActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lbUltimaRevisao" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbKM" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbChassi" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbTipoCombustivel" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbCor" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbAnoFabricacao" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbModelo" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbMarca" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbPlaca" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbCodveiculos" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtfPlaca" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfMarca" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfModelo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfAnoFabricacao" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfCor" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfTipoCombustivel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfChassi" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfKM" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtfUltimaRevisao" alignment="0" pref="118" max="32767" attributes="0"/>
+                          <Component id="txtfCodveiculos" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnMostrar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnGravar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnAtualizar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnFechar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbCodveiculos" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfCodveiculos" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbPlaca" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfPlaca" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbMarca" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfMarca" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbModelo" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfModelo" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbAnoFabricacao" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfAnoFabricacao" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbCor" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfCor" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbTipoCombustivel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfTipoCombustivel" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbChassi" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfChassi" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbKM" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="txtfKM" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbUltimaRevisao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="txtfUltimaRevisao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMostrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnGravar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAtualizar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFechar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbPlaca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Placa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbMarca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbModelo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAnoFabricacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ano Fabrica&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbTipoCombustivel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo Combust&#xed;vel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbChassi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chassi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbKM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbUltimaRevisao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xda;ltima Revis&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfPlaca">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfMarca">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfModelo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfAnoFabricacao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfCor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfTipoCombustivel">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfChassi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfKM">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfUltimaRevisao">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMostrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGravar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gravar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGravarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAtualizar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAtualizarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCodveiculos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codveiculos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfCodveiculos">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFechar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Excluir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFecharActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

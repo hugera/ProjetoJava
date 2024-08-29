@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Relatorio"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="btnDados">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dados"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDadosActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="cc" green="cc" red="0" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="btnLimpar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnMostrar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnGravar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnAtualizar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnFechar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbNomedoEvento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbDatadoEvento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbHorarioInicio" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbHorarioTermino" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbLocaldoEvento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbPublicoAlvo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbCapacidadeMaxima" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbOrganizador" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbDescricao" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbCodeventos" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtfCodeventos" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtfDescricao" min="-2" pref="97" max="-2" attributes="0"/>
+                          <Component id="txtfOrganizador" min="-2" pref="245" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtfNomedoEvento" pref="245" max="32767" attributes="0"/>
+                              <Component id="txtfHorarioInicio" alignment="0" pref="245" max="32767" attributes="0"/>
+                              <Component id="txtfDatadoEvento" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtfHorarioTermino" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtfLocaldoEvento" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtfPublicoAlvo" max="32767" attributes="0"/>
+                              <Component id="txtfCapacidadeMaxima" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="81" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbCodeventos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfCodeventos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbNomedoEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfNomedoEvento" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbDatadoEvento" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfDatadoEvento" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbHorarioInicio" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfHorarioInicio" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbHorarioTermino" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfHorarioTermino" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbLocaldoEvento" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfLocaldoEvento" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbDescricao" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfDescricao" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbPublicoAlvo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfPublicoAlvo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbCapacidadeMaxima" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfCapacidadeMaxima" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbOrganizador" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfOrganizador" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMostrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnGravar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAtualizar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFechar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbNomedoEvento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome do Evento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbDatadoEvento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data do Evento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbHorarioInicio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hor&#xe1;rio In&#xed;cio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbHorarioTermino">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hor&#xe1;rio T&#xe9;rmino"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbLocaldoEvento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Local do Evento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbDescricao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbPublicoAlvo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P&#xfa;blico Alvo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCapacidadeMaxima">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Capacidade M&#xe1;xima"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbOrganizador">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Organizador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfNomedoEvento">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfDatadoEvento">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfDatadoEventoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfHorarioInicio">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfHorarioTermino">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfLocaldoEvento">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfDescricao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfPublicoAlvo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfCapacidadeMaxima">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfOrganizador">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMostrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mostrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMostrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGravar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gravar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGravarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAtualizar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAtualizarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbCodeventos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codeventos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfCodeventos">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFechar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fechar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFecharActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
